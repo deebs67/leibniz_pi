@@ -24,6 +24,7 @@ def arctan_z_term(z, term_index):
 def arctan_z_sum(z, number_of_terms):
     """
     Sums over terms in Gregory-Leibniz series for arctan(z)
+    
     """
     term_generator = (arctan_z_term(z, x) for x in range(number_of_terms))
     
