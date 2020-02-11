@@ -30,18 +30,18 @@ In 1699 the British mathematician Abraham Sharp used the Gregory-Leibniz series 
 theta=arctan(z)=Pi/6, so Pi=6*arctan(z)
 
 In doing this, Sharp was able to calculate Pi to 71 digits, a world record at the time. So we also provide Python functions to illustrate Sharp’s method, as follows:
-
-import math
-import leibniz_pi
-6.0*leibniz_pi.arctan_z_sum(1/math.sqrt(3),1)
-3.4641016151377553
-6.0*leibniz_pi.arctan_z_sum(1/math.sqrt(3),10)
-3.14159051093808
-6.0*leibniz_pi.arctan_z_sum(1/math.sqrt(3),100)
-3.1415926535897936
-6.0*leibniz_pi.arctan_z_sum(1/math.sqrt(3),1000)
-3.1415926535897936
-math.pi
-3.141592653589793
+  
+import math  
+import leibniz_pi  
+6.0*leibniz_pi.arctan_z_sum(1/math.sqrt(3),1)  
+3.4641016151377553  
+6.0*leibniz_pi.arctan_z_sum(1/math.sqrt(3),10)  
+3.14159051093808  
+6.0*leibniz_pi.arctan_z_sum(1/math.sqrt(3),100)  
+3.1415926535897936  
+6.0*leibniz_pi.arctan_z_sum(1/math.sqrt(3),1000)  
+3.1415926535897936  
+math.pi  
+3.141592653589793  
 
 Convergence for Sharp's approach is much more rapid than for the method shown earlier. However, Sharp’s method is conceptually slightly more complex, and does presumably require 1/sqrt(3) to have been pre-computed to high accuracy - but he would have had methods for that too!
