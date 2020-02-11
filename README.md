@@ -44,4 +44,4 @@ import leibniz_pi
 math.pi  
 3.141592653589793  
 
-Convergence for Sharp's approach is much more rapid than for the method shown earlier. However, Sharp’s method is conceptually slightly more complex, and does presumably require 1/sqrt(3) to have been pre-computed to high accuracy - but he would have had methods for that too!
+Convergence for Sharp's approach is much more rapid than for the method shown earlier. However, Sharp’s method is conceptually slightly more complex, and does require 1/sqrt(3) to have been pre-computed to high accuracy - but he presumably would have had methods for that too!
