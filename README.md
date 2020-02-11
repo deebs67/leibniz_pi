@@ -33,13 +33,13 @@ In doing this, Sharp was able to calculate Pi to 71 digits, a world record at th
   
 import math  
 import leibniz_pi  
-6.0&ast*leibniz_pi.arctan_z_sum(1/math.sqrt(3),1)  
+6.0\*leibniz_pi.arctan_z_sum(1/math.sqrt(3),1)  
 3.4641016151377553  
-6.0&ast*leibniz_pi.arctan_z_sum(1/math.sqrt(3),10)  
+6.0\*leibniz_pi.arctan_z_sum(1/math.sqrt(3),10)  
 3.14159051093808  
-6.0&ast*leibniz_pi.arctan_z_sum(1/math.sqrt(3),100)  
+6.0\*leibniz_pi.arctan_z_sum(1/math.sqrt(3),100)  
 3.1415926535897936  
-6.0&ast*leibniz_pi.arctan_z_sum(1/math.sqrt(3),1000)  
+6.0\*leibniz_pi.arctan_z_sum(1/math.sqrt(3),1000)  
 3.1415926535897936  
 math.pi  
 3.141592653589793  
