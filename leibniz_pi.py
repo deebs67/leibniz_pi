@@ -1,11 +1,28 @@
+# This importable Python file implements functions for calculating Pi using the Gregory-Leibniz series. See associated README.md file
+# for more information.
+#
+# (c) deebs67, 2020 (MIT licensed)
+#
 import math
 
 
 def this_leibniz_term(term_index):
+    """
+    Calculates a single term in the version of the Gregory-Leibniz series for calculating Pi from Pi/4.
+    Note that this particular method is conceptually very simple, but converges very slowly.
+    See README.md for more discussion.
+    
+    """
     return (4.0/(term_index*2+1))*((-1)**(term_index))  
     
 
 def leibniz_sum(number_of_terms):
+    """
+    Sume over the individual terms in the Gregory-Leibniz series for calculating Pi from Pi/4.
+    Note that this particular method is conceptually very simple, but converges very slowly.
+    See README.md for more discussion.
+    
+    """
     term_generator = (this_leibniz_term(x) for x in range(number_of_terms))
     
     return sum(term_generator)
